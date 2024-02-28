@@ -1,5 +1,5 @@
 {
-  "name": "uo1428",
+  "name": "joltz1234",
   "version": "1.0.0",
   "description": "Discord.js v14 Command-Handler. Commands, Events, Permissions and Cooldown Handlers for Discord.js v14 bot - coded by Uo#1428",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "uo1428",
+  "author": "joltz1234",
   "devDependencies": {
     "node": "^16.9.1"
   },
