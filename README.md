@@ -1,5 +1,3 @@
-Certainly! Here's a more basic version of the README file without the Contributing and License sections:
-
 ```markdown
 # Discord.js Slash Command Bot
 
