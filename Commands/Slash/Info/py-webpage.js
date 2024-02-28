@@ -24,9 +24,9 @@ module.exports = {
             .setTitle("How to Make a Webpage in Discord.py")
             .setDescription("Follow these steps:")
             .addFields(
-              { name: "<:dot:1206071454584668233> Copy this code:", value: "```python\nfrom flask import Flask, render_template\nfrom threading import Thread\n\napp = Flask(__name__)\n\n@app.route('/')\ndef index():\n    return '''<body style=\"margin: 0; padding: 0;\">\n    <iframe width=\"100%\" height=\"100%\" src=\"https://axocoder.vercel.app/\" frameborder=\"0\" allowfullscreen></iframe>\n  </body>'''\n\ndef run():\n    app.run(host='0.0.0.0', port=8080)\n\ndef keep_alive():\n    t = Thread(target=run)\n    t.start()\n\nkeep_alive()\nprint(\"Server Running Because of Axo\")\n```" },
-              { name: "<:dot:1206071454584668233> Paste this code into your index.js or app.js file.", value: "After copying, paste the code into your `index.js` or `app.js` file." },
-              { name: "<:dot:1206071454584668233> Run the project again.", value: "Once you've pasted the code, save the file and run your project again." }
+              { name: "🔵 Copy this code:", value: "```python\nfrom flask import Flask, render_template\nfrom threading import Thread\n\napp = Flask(__name__)\n\n@app.route('/')\ndef index():\n    return '''<body style=\"margin: 0; padding: 0;\">\n    <iframe width=\"100%\" height=\"100%\" src=\"https://axocoder.vercel.app/\" frameborder=\"0\" allowfullscreen></iframe>\n  </body>'''\n\ndef run():\n    app.run(host='0.0.0.0', port=8080)\n\ndef keep_alive():\n    t = Thread(target=run)\n    t.start()\n\nkeep_alive()\nprint(\"Server Running Because of Axo\")\n```" },
+              { name: "🔵 Paste this code into your index.js or app.js file.", value: "After copying, paste the code into your `index.js` or `app.js` file." },
+              { name: "🔵 Run the project again.", value: "Once you've pasted the code, save the file and run your project again." }
             )
         ]
       });
