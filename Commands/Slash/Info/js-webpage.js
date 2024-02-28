@@ -24,9 +24,9 @@ module.exports = {
             .setTitle("How to Make a Webpage in Discord.js")
             .setDescription("Follow these steps:")
             .addFields(
-              { name: "<:dot:1206071454584668233> Copy this code:", value: "```javascript\nconst http = require('http');\n\nconst server = http.createServer((req, res) => {\n  res.setHeader('Content-Type', 'text/html');\n  res.end(`\n    <html>\n      <head>\n        <title>Your Web View</title>\n      </head>\n      <body style=\"margin: 0; padding: 0;\">\n        <iframe width=\"100%\" height=\"100%\" src=\"https://axocoder.vercel.app/\" frameborder=\"0\" allowfullscreen></iframe>\n      </body>\n    </html>`);\n});\n\nserver.listen(3000, () => {\n  console.log('Server Online because of Axo Coder ✅!!');\n});\n```" },
-              { name: "<:dot:1206071454584668233> Paste this code into your index.js or app.js file.", value: "After copying, paste the code into your `index.js` or `app.js` file." },
-              { name: "<:dot:1206071454584668233> Run the project again.", value: "Once you've pasted the code, save the file and run your project again." }
+              { name: "🔵 Copy this code:", value: "```javascript\nconst http = require('http');\n\nconst server = http.createServer((req, res) => {\n  res.setHeader('Content-Type', 'text/html');\n  res.end(`\n    <html>\n      <head>\n        <title>Your Web View</title>\n      </head>\n      <body style=\"margin: 0; padding: 0;\">\n        <iframe width=\"100%\" height=\"100%\" src=\"https://axocoder.vercel.app/\" frameborder=\"0\" allowfullscreen></iframe>\n      </body>\n    </html>`);\n});\n\nserver.listen(3000, () => {\n  console.log('Server Online because of Axo Coder ✅!!');\n});\n```" },
+              { name: "🔵 Paste this code into your index.js or app.js file.", value: "After copying, paste the code into your `index.js` or `app.js` file." },
+              { name: "🔵 Run the project again.", value: "Once you've pasted the code, save the file and run your project again." }
             )
         ]
       });
