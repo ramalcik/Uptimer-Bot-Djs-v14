@@ -23,14 +23,14 @@ module.exports = {
           new EmbedBuilder()
             .setColor(client.embed.color)
             .setTitle("Instructions for Handling 'Missing Intents' Error")
-        .setDescription("If you are getting an error that says missing intents, follow these steps:")
+            .setDescription("If you are getting an error that says missing intents, follow these steps:")
             .addFields(
-              { name: "<:dot:1206071454584668233> Go to Discord Developers Portal", value: "Visit https://discord.com/developers" },
-          { name: "<:dot:1206071454584668233> Click on your application", value: "Navigate to your application" },
-          { name: "<:dot:1206071454584668233> Go to the 'Bot' tab", value: "Access the 'Bot' settings" },
-          { name: "<:dot:1206071454584668233> Enable 'Server Members Intent' and 'Message Content Intent'", value: "Scroll down to privileged intents and enable 'Server Members Intent' and 'Message Content Intent'" }
-        )
-.setImage("https://cdn.discordapp.com/attachments/1202809238632661003/1205903241699786762/image.png?ex=65da0fe9&is=65c79ae9&hm=6570309b40443666e90d1aaaec0523bbcaf020044f148e092e3868a39bb8d8cb&")
+              { name: "🔵 Go to Discord Developers Portal", value: "Visit https://discord.com/developers" },
+              { name: "🔵 Click on your application", value: "Navigate to your application" },
+              { name: "🔵 Go to the 'Bot' tab", value: "Access the 'Bot' settings" },
+              { name: "🔵 Enable 'Server Members Intent' and 'Message Content Intent'", value: "Scroll down to privileged intents and enable 'Server Members Intent' and 'Message Content Intent'" }
+            )
+            .setImage("https://cdn.discordapp.com/attachments/1212525758568857630/1212526886966525992/2c87ebfe.png?ex=65f228a9&is=65dfb3a9&hm=167109c65d23ed7d7fd744ebb76f6a2d5ccc85c1b57c8b3411d860b0b2f4ea12&")
         ]
       });
     } catch (error) {
